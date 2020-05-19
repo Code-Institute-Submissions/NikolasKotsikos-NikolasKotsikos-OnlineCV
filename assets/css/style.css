@@ -2,26 +2,47 @@
 
 /*--------------------------------------------Header*/
 
-.image a {
+.picture {
   background-image: url("assets/images/Nikolas.jpg");
-  display: inline-block;
+  
 }
 
+.name {
+    background-color: darkgray;
+    height: 200px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
 .name h1 a {
   font-family: "Exo", sans-serif;
   text-decoration: none;
   font-weight: 400;
+  border: 0;
+  padding: 0;
+  margin-top: 50px;
+  color: #fafafa; 
+}
+
+hr {
+    width: 300px;
+    padding: 0;
+    margin: 0;
+    color: #fafafa;
 }
 
 .name h2 {
   font-family: "Exo", sans-serif;
     font-weight: 300;
+    color: #fafafa;
 }
 
 .navigation nav li {
   font-family: "Roboto", sans-serif;
   list-style: none;
   display: inline;
+  position: relative;
 }
 
 .navigation nav li a {
