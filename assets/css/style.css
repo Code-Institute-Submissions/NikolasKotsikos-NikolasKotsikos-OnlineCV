@@ -1,6 +1,12 @@
 /*--------------------------------------------Fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Exo&family=Roboto&display=swap");
 
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 /*--------------------------------------------Header*/
 header {
   background-color: darkgray;
@@ -24,7 +30,9 @@ header {
 .titletext {
   border: 0px;
   padding: 0px;
-  margin: 80px;
+  margin: 0px;
+  margin-left: 50px;
+  margin-top: 30px;
   float: left;
 }
 
@@ -34,12 +42,12 @@ header {
   font-size: 50px;
   letter-spacing: 4px;
   border: 0px;
-  padding: 0px;
+  padding-bottom: 50px;
   color: #fafafa;
 }
 
 .titletext hr {
-  position: absolute;
+  position: relative;
   width: 445px;
   color: #fafafa;
 }
@@ -48,17 +56,18 @@ header {
   font-family: "Exo", sans-serif;
   font-weight: 300;
   font-size: 35px;
-  padding-top: 50px;
+  padding-top: 0px;
   color: #fafafa;
 }
 .menu {
-  padding-top: 340px;
+  border: 0;
+  margin: 0;
+  padding-top: 334px;
   float: right;
-  
-}
+  }
 
 .menu ul {
-    text-align: center;
+  text-align: center;
 }
 .menu li {
   font-family: "Exo", sans-serif;
@@ -69,30 +78,22 @@ header {
 .about {
   background-color: #949191;
   padding: 20px 50px;
-  padding-bottom: 14px;
-  border: 0px;
-}
+  }
 
 .skills {
   background-color: #949191;
   padding: 20px 50px;
-  padding-bottom: 14px;
-  border: 0px;
-}
+  }
 
 .education {
   background-color: #949191;
   padding: 20px 50px;
-  padding-bottom: 14px;
-  border: 0px;
-}
+  }
 
 .contact {
   background-color: #949191;
   padding: 20px 50px;
-  padding-bottom: 14px;
-  border: 0px;
-}
+  }
 
 .menu li a {
   text-decoration: none;
@@ -100,4 +101,10 @@ header {
   font-size: 25px;
 }
 
+/*--------------------------------------------Sidebar*/
 
+.sidebar {
+  background-color: darkgray;
+  float: left;
+  width: 200px;
+}
