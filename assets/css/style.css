@@ -2,62 +2,79 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo&family=Roboto&display=swap");
 
 /*--------------------------------------------Header*/
-
-.titlebar {
+header {
   background-color: darkgray;
   height: 500px;
   width: 100%;
-  margin: 0;
-  border: 0;
-  padding: 0;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+.title {
 }
 
-.titlebartext hr {
-    position: absolute;
-    width: 450px;
-    color: #fafafa;
-}
-.titlebar a img {
+
+.title a img {
   height: 500px;
-  border: 0;
-  margin: 0;
-  padding: 0; 
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
   float: left;
 }
 
-.titlebartext {
-  border: 0;
-  padding: 0;
+.titletext {
+  border: 0px;
+  padding: 0px;
   margin: 80px;
   float: left;
 }
 
-.titlebar h1 a {
+.title h1 a {
   font-family: "Exo", sans-serif;
   text-decoration: none;
-  font-size: 50px; 
+  font-size: 50px;
   letter-spacing: 4px;
-  border: 0;
-  padding: 0;
+  border: 0px;
+  padding: 0px;
   color: #fafafa;
 }
 
-.titlebar h2 {
+.titletext hr {
+  position: absolute;
+  width: 445px;
+  color: #fafafa;
+}
+
+.title h2 {
   font-family: "Exo", sans-serif;
   font-weight: 300;
   font-size: 35px;
   padding-top: 50px;
   color: #fafafa;
+}
+.menu {
+    padding-top: 400px;
+    padding-right: 40px;
     
+    text-align: center;
+    
+
 }
 
-.menu nav li {
-  font-family: "Roboto", sans-serif;
+.menu ul {
+    border: 1px #fafafa;
+}
+.menu li {
+  font-family: "Exo", sans-serif;
   list-style: none;
-  display: inline;
-  position: relative;
+  display: inline-block;
+  padding: 20px;
+  margin: 10px;
+
 }
 
-.menu nav li a {
+.menu li a {
   text-decoration: none;
+  color: #fafafa;
+  font-size: 25px;
 }
