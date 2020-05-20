@@ -10,7 +10,7 @@ body {
 /*--------------------------------------------Header*/
 header {
   background-color: darkgray;
-  height: 400px;
+  height: 350px;
   width: 100%;
   margin: 0px;
   border: 0px;
@@ -20,7 +20,7 @@ header {
 }
 
 .title a img {
-  height: 400px;
+  height: 350px;
   border: 0px;
   margin: 0px;
   padding: 0px;
@@ -32,7 +32,7 @@ header {
   padding: 0px;
   margin: 0px;
   margin-left: 80px;
-  margin-top: 40px;
+  margin-top: 30px;
   float: left;
 }
 
@@ -66,7 +66,7 @@ header {
 
 .menu ul {
   margin-top: -75px;
-  display:inline-flex;
+  display: inline-flex;
   float: right;
 }
 
@@ -76,7 +76,7 @@ header {
   list-style: none;
   border: 0;
   margin: 0;
-  width: 17.5em;
+  width: 18em;
   padding: 20px 50px;
   text-align: center;
   display: inline-block;
@@ -90,15 +90,14 @@ header {
   text-decoration: none;
   color: #fafafa;
   font-size: 25px;
-  display: block;
 }
 
 /*--------------------------------------------Sidebar*/
 
 #sidebar {
   background-color: #949191;
-  width: 400px;
-  height: 465px;
+  width: 350px;
+  height: 510px;
   border: 0;
 }
 
@@ -110,7 +109,7 @@ header {
   list-style: none;
   border: 0;
   margin: 0;
-  width: 17.5em;
+  width: 18em;
   padding: 20px 50px;
   text-align: center;
   display: inline-block;
@@ -122,9 +121,50 @@ header {
   list-style: none;
   border: 0;
   margin: 0;
-  width: 17.5em;
+  width: 18em;
   padding: 20px 50px;
   text-align: center;
   display: inline-block;
 }
 
+/*--------------------------------------------Footer*/
+
+footer {
+  background-color: #3b3a3a;
+  width: 100%;
+  height: 80px;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+/*--------------------------------------------General Info*/
+
+#sidebar h3 {
+    font-family: "Exo", sans-serif;
+    color: #fafafa;
+    padding-bottom: 15px;
+    border: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+.generalinfocontainer {
+    clear: both;
+    padding-left: 40px;
+    padding-top: 80px;
+
+}
+.generalinfo {
+    font-family: "Roboto", sans-serif;
+    list-style: none;
+    color: #fafafa;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+.generalinfoitem {
+    padding-bottom: 15px;
+    font-size: 17px;
+}
