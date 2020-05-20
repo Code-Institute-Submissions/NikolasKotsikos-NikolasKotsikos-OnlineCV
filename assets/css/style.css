@@ -31,11 +31,15 @@ header {
   border: 0px;
   padding: 0px;
   margin: 0px;
-  margin-left: 80px;
-  margin-top: 30px;
   float: left;
 }
 
+.title h1 {
+  margin: 0;
+  padding-left: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .title h1 a {
   font-family: "Exo", sans-serif;
   text-decoration: none;
@@ -47,7 +51,7 @@ header {
 }
 
 .titletext hr {
-  position: relative;
+  margin-left: 60px;
   width: 445px;
   color: #fafafa;
 }
@@ -57,26 +61,37 @@ header {
   font-weight: 100;
   font-size: 35px;
   padding-top: 0px;
+  margin: 60px;
+  margin-top: 30px;
+  margin-bottom: 0;
   color: #fafafa;
 }
+
+/*--------------------------------------------Menu*/
+
 .menu {
+  padding-left: 350px;  
   border: 0;
   margin: 0;
+  width: 70%;
+  height: 10%;
 }
 
 .menu ul {
-  margin-top: -75px;
   display: inline-flex;
-  float: right;
+  border: 0;
+  margin-bottom: 0;
+  padding: 0;
+  padding-top: 48px;
 }
 
 .menuitem {
-  font-family: "Exo", sans-serif;
+  
   background-color: #949191;
   list-style: none;
   border: 0;
   margin: 0;
-  width: 18em;
+  width: 18.25em;
   padding: 20px 50px;
   text-align: center;
   display: inline-block;
@@ -87,6 +102,7 @@ header {
 }
 
 .menu li a {
+  font-family: "Exo", sans-serif;  
   text-decoration: none;
   color: #fafafa;
   font-size: 25px;
@@ -101,6 +117,24 @@ header {
   border: 0;
 }
 
+#sidebar h3 {
+  font-family: "Exo", sans-serif;
+  color: #fafafa;
+  padding-bottom: 25px;
+  border: 0;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+#sidebar hr {
+  color: #fafafa;
+  width: 115px;
+  margin: 0;
+  margin-bottom: 20px;
+  margin-top: -15px;
+}
+
 /*--------------------------------------------Hover*/
 
 .menuitem:hover {
@@ -109,10 +143,11 @@ header {
   list-style: none;
   border: 0;
   margin: 0;
-  width: 18em;
+  width: 18.25em;
   padding: 20px 50px;
   text-align: center;
   display: inline-block;
+  cursor: pointer;
 }
 
 .menuitem:active {
@@ -121,7 +156,7 @@ header {
   list-style: none;
   border: 0;
   margin: 0;
-  width: 18em;
+  width: 18.25em;
   padding: 20px 50px;
   text-align: center;
   display: inline-block;
@@ -132,7 +167,7 @@ header {
 footer {
   background-color: #3b3a3a;
   width: 100%;
-  height: 80px;
+  height: 77px;
   margin: 0;
   border: 0;
   padding: 0;
@@ -140,31 +175,59 @@ footer {
 
 /*--------------------------------------------General Info*/
 
-#sidebar h3 {
-    font-family: "Exo", sans-serif;
-    color: #fafafa;
-    padding-bottom: 15px;
-    border: 0;
-    margin: 0;
-    font-size: 20px;
-}
-
 .generalinfocontainer {
-    clear: both;
-    padding-left: 40px;
-    padding-top: 80px;
-
+  clear: both;
+  padding-left: 40px;
+  padding-top: 110px;
 }
 .generalinfo {
-    font-family: "Roboto", sans-serif;
-    list-style: none;
-    color: #fafafa;
-    padding: 0;
-    border: 0;
-    margin: 0;
+  font-family: "Roboto", sans-serif;
+  list-style: none;
+  color: #fafafa;
+  padding: 0;
+  border: 0;
+  margin: 0;
 }
 
 .generalinfoitem {
-    padding-bottom: 15px;
-    font-size: 17px;
+  padding-bottom: 20px;
+  font-size: 17px;
+}
+
+/*--------------------------------------------Paragraphs*/
+
+.container {
+  width: 1570px;
+  margin-left: 350px;
+  padding: 0;
+  border: 0;
+  display: inline-flex;
+}
+
+.text1 {
+  position: relative;
+  width: 30%;
+  height: 30%;
+  display: block;
+}
+
+.text1 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  text-align: left;
+  position: relative;
+}
+
+.text2 {
+  position: relative;
+  width: 30%;
+  height: 30%;
+  display: block;
+}
+
+.text2 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  text-align: left;
+  position: relative;
 }
