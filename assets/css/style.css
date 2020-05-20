@@ -31,8 +31,8 @@ header {
   border: 0px;
   padding: 0px;
   margin: 0px;
-  margin-left: 50px;
-  margin-top: 30px;
+  margin-left: 80px;
+  margin-top: 40px;
   float: left;
 }
 
@@ -54,7 +54,7 @@ header {
 
 .title h2 {
   font-family: "Exo", sans-serif;
-  font-weight: 300;
+  font-weight: 100;
   font-size: 35px;
   padding-top: 0px;
   color: #fafafa;
@@ -90,6 +90,7 @@ header {
   text-decoration: none;
   color: #fafafa;
   font-size: 25px;
+  display: block;
 }
 
 /*--------------------------------------------Sidebar*/
@@ -100,3 +101,30 @@ header {
   height: 465px;
   border: 0;
 }
+
+/*--------------------------------------------Hover*/
+
+.menuitem:hover {
+  font-family: "Exo", sans-serif;
+  background-color: #474444;
+  list-style: none;
+  border: 0;
+  margin: 0;
+  width: 17.5em;
+  padding: 20px 50px;
+  text-align: center;
+  display: inline-block;
+}
+
+.menuitem:active {
+  font-family: "Exo", sans-serif;
+  background-color: #949191;
+  list-style: none;
+  border: 0;
+  margin: 0;
+  width: 17.5em;
+  padding: 20px 50px;
+  text-align: center;
+  display: inline-block;
+}
+
