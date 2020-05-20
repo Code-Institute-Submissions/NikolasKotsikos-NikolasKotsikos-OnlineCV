@@ -62,11 +62,12 @@ header {
 .menu {
   border: 0;
   margin: 0;
-  float: right;
 }
 
 .menu ul {
   margin-top: -75px;
+  display:inline-flex;
+  float: right;
 }
 
 .menuitem {
@@ -75,7 +76,7 @@ header {
   list-style: none;
   border: 0;
   margin: 0;
-  width: 277px;
+  width: 17.5em;
   padding: 20px 50px;
   text-align: center;
   display: inline-block;
@@ -93,8 +94,9 @@ header {
 
 /*--------------------------------------------Sidebar*/
 
-.sidebar {
-  background-color: rgb(82, 76, 76);
-  margin-top: 400px;
+#sidebar {
+  background-color: #949191;
+  width: 400px;
+  height: 465px;
   border: 0;
 }

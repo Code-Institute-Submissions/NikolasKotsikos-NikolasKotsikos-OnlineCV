@@ -1,4 +1,4 @@
-## Welcome,
+## Welcome!
 
 This application is an online CV for Nikolas Kotsikos, a Junior Full Stack Developer. <br/>
 This project will at completion also be submited as a milestone project for the online course on Full Stack Development by Code Institute.<br/>
