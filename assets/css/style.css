@@ -292,3 +292,14 @@ footer {
   padding: 0;
   clear: both;
 }
+
+footer h3, h4 {
+    font-family: "Roboto", sans-serif;
+    color: #fafafa;
+    font-weight: 100;
+}
+
+footer i {
+    color: #fafafa;
+    font-size: 25px;
+}
