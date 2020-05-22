@@ -117,40 +117,22 @@ header {
 /*--------------------------------------------Menu-hover*/
 
 .menuitem:hover {
-  font-family: "Exo", sans-serif;
   background-color: #474444;
-  list-style: none;
-  border: 0;
-  margin: 0;
-  width: 18.25em;
-  padding: 20px 50px;
-  text-align: center;
-  display: inline-block;
   cursor: pointer;
 }
 
 .menuitem:focus {
-  font-family: "Exo", sans-serif;
-  background-color: #949191;
-  list-style: none;
-  border: 0;
-  margin: 0;
-  width: 18.25em;
-  padding: 20px 50px;
-  text-align: center;
-  display: inline-block;
+  background-color: #474444;
+  
+}
+
+.menuitem::selection {
+  background-color: #474444;  
 }
 
 .menuitem:active {
-  font-family: "Exo", sans-serif;
   background-color: #949191;
-  list-style: none;
-  border: 0;
-  margin: 0;
-  width: 18.25em;
-  padding: 20px 50px;
-  text-align: center;
-  display: inline-block;
+  
 }
 
 /*--------------------------------------------Sidebar*/
