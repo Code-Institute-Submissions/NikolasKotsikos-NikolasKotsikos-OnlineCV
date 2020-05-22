@@ -129,7 +129,7 @@ header {
   cursor: pointer;
 }
 
-.menuitem:active {
+.menuitem:focus {
   font-family: "Exo", sans-serif;
   background-color: #949191;
   list-style: none;
