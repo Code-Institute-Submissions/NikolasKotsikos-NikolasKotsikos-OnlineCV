@@ -293,7 +293,13 @@ footer {
   clear: both;
 }
 
-footer h3, h4 {
+footer h3 {
+    font-family: "Exo", sans-serif;
+    color: #fafafa;
+    font-weight: 100;
+}
+
+footer h4 {
     font-family: "Roboto", sans-serif;
     color: #fafafa;
     font-weight: 100;
@@ -307,22 +313,38 @@ footer i {
 .project {
     border: 0;
     margin: 0;
-    font-size: 20px;
+    font-size: 18px;
     float: left;
     padding-left: 50px;
 }
 
 .project i {
+    color: #fafafa;
     border: 0;
     margin: 0;
     padding-left: 20px;
-    font-size: 3opx;
+    font-size: 25px;
 }
+
+.project a {
+    text-decoration: none;
+}
+
+.links {
+    border: 0;
+    padding-top: 5px;
+    margin-right: 40px;
+    display: inline-flex;
+    float: right;
+}
+
 .downloadcv {
     border: 0;
     margin: 0;
     padding: 0;
     font-size: 17px;
+    width: 300px;
+    clear: right;
 }
 
 .downloadcv i {
@@ -333,11 +355,18 @@ footer i {
 }
 
 .social {
-    float: right;
-    padding-right: 100px;
+    clear: right;
+    margin-left: 100px;
+    display: inline-flex;
+
 }
 
 .socialicons {
-    float: right;
-    
+    border: 0;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.socialicons a {
+    padding-left: 10px;
 }
