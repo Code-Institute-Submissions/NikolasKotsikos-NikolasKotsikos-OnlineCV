@@ -141,6 +141,18 @@ header {
   display: inline-block;
 }
 
+.menuitem:active {
+  font-family: "Exo", sans-serif;
+  background-color: #949191;
+  list-style: none;
+  border: 0;
+  margin: 0;
+  width: 18.25em;
+  padding: 20px 50px;
+  text-align: center;
+  display: inline-block;
+}
+
 /*--------------------------------------------Sidebar*/
 
 #sidebar {
