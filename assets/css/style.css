@@ -436,6 +436,7 @@ footer h4 {
 
   .menu ul {
     padding: 0;
+    margin: 0;
   }
 
   .menuitem {
@@ -452,7 +453,8 @@ footer h4 {
 
   .menuitem i {
     font-size: 22px;
-    padding-left: 17px;
+    padding-left: 20px;
+    padding-top: 10px;
   }
 
   .menu li a {
