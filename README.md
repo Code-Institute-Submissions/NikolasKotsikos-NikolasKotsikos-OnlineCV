@@ -9,7 +9,7 @@ The application is designed with a mobile first approach, but renders excellent 
 The app contains an about page, functioning as the landing (home) page for it (filename: index.html). <br/>
 Skills & Projects contains a listing of Nikolas's acquired skills and projects relevant to software development (filename: skills.html). <br/>
 Education is a summary of Nikolas's degrees, memberships and qualifications (filename: education.html). <br/>
-Finally the contact page provides a form for users to send project suggestions and idead for collaboration (filename: contact.html). <br/>
+Finally the contact page provides a form for users to send project suggestions and ideas for collaboration (filename: contact.html). <br/>
 
 ## Navigation
 
