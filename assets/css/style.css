@@ -1,6 +1,114 @@
 /*--------------------------------------------Fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Exo&family=Roboto&display=swap");
 
+/*--------------------------------------------Media Queries*/
+
+@media (min-width: 300px) and (max-width: 480px) {
+  
+  header {
+    background-color: darkgray;
+    height: 200px;
+    width: max-content;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+  }
+
+  .title a img {
+    height: 100px;
+    width: 100px;
+    border: 0px;
+    float: left;
+  }
+
+  .titletext {
+    border: 0px;
+    padding: 0px;
+    margin: 0;
+    float: right;
+  }
+
+  .title h1 {
+    margin: 0;
+    border: 0;
+    padding-left: 60px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+  }
+  .title h1 a {
+    font-family: "Exo", sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    letter-spacing: 2px;
+    border: 0px;
+    padding-bottom: 25px;
+    color: #fafafa;
+  }
+
+  .titletext hr {
+    margin-left: 30px;
+    width: 100px;
+    color: #fafafa;
+  }
+
+  .title h2 {
+    font-family: "Exo", sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    padding-top: 0px;
+    border: 0;
+    margin: 10px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    color: #fafafa;
+  }
+
+  .menu {
+    /*padding-left: 350px;*/
+    border: 0;
+    margin: 0;
+    width: 100%;
+    height: 10%;
+    clear: both;
+  }
+
+  .menu ul {
+    display: inline-block;
+    border: 0;
+    margin-bottom: 0;
+    padding: 0;
+    clear: both;
+  }
+
+  .menuitem {
+    background-color: #949191;
+    list-style: none;
+    border: 0;
+    margin: 0;
+    width: 10em;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .menuitem i {
+    /*text-align: center;*/
+  }
+
+  .menu li a {
+    /*visibility: hidden;*/
+  }
+
+  #sidebar {
+    background-color: #949191;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    clear: both;
+  }
+}
+
 /*--------------------------------------------Body*/
 
 body {
@@ -123,16 +231,18 @@ header {
 
 .menuitem:focus {
   background-color: #474444;
-  
 }
 
 .menuitem::selection {
-  background-color: #474444;  
+  background-color: #474444;
+}
+
+.menuitem a::selection {
+  background-color: transparent;
 }
 
 .menuitem:active {
   background-color: #949191;
-  
 }
 
 /*--------------------------------------------Sidebar*/
