@@ -7,13 +7,15 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
+  width: fit-content;
+  max-width: 100%;
 }
 
 /*--------------------------------------------Header*/
 header {
   background-color: darkgray;
   height: 350px;
-  width: 100%;
+  width: fit-content;
   margin: 0px;
   border: 0px;
   padding: 0px;
@@ -316,7 +318,7 @@ footer h4 {
 }
 
 .project a {
-display: inline-flex;
+  display: inline-flex;
 }
 
 .project i {
@@ -324,8 +326,8 @@ display: inline-flex;
   border: 0;
   margin: 0;
   padding-left: 20px;
-  padding-top: 17px;
-  font-size: 25px;
+  padding-top: 20.5px;
+  font-size: 28px;
   float: left;
 }
 
@@ -351,14 +353,14 @@ display: inline-flex;
 }
 
 .downloadcv a {
-    display: inline-flex;
+  display: inline-flex;
 }
 
 .downloadcv i {
   border: 0;
   margin: 0;
   padding-left: 15px;
-  padding-top: 20px;
+  padding-top: 20.5px;
   font-size: 20px;
   color: #fafafa;
 }
@@ -387,17 +389,20 @@ display: inline-flex;
 
 /*--------------------------------------------Media Queries*/
 
-@media (min-width: 300px) and (max-width: 420px) {
+/*--------------------------------------------Mobile*/
+
+@media screen and (min-width: 290px) and (max-width: 420px) {
   body {
     width: 100%;
   }
 
   .title {
-    display: inline-block;
+    display: inline;
   }
 
   .title a img {
     height: 100px;
+    float: left;
   }
 
   header {
@@ -419,7 +424,7 @@ display: inline-flex;
     padding: 10px 0;
     border: 0;
     margin: 0;
-    font-size: 20px;
+    font-size: 24px;
     letter-spacing: 1px;
     font-weight: 200;
     display: inline-block;
@@ -436,7 +441,7 @@ display: inline-flex;
     border: 0;
     margin: 0;
     font-weight: 100;
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .menu {
@@ -449,6 +454,7 @@ display: inline-flex;
   .menu ul {
     padding: 0;
     margin: 0;
+    width: 100%;
   }
 
   .menuitem {
@@ -491,7 +497,6 @@ display: inline-flex;
   .text1 {
     padding-top: 60px;
     width: 260px;
-    
   }
 
   .text2 {
@@ -515,15 +520,85 @@ display: inline-flex;
   .text1 p,
   .text2 p {
     font-size: 15px;
-    padding-left: 65px;
-    width: 220px;
+    padding-left: 75px;
+    width: 270px;
     float: left;
   }
 
   .text1 i,
   .text2 i {
     padding-left: 35px;
+    padding-right: 15px;
     float: left;
     font-size: 25px;
+  }
+  footer {
+    height: 170px;
+  }
+
+  .project {
+    float: right;
+    padding-right: 80px;
+  }
+  .project h3 {
+    font-size: medium;
+  }
+
+  .project i {
+    padding-top: 14px;
+  }
+
+  .links {
+    display: inline;
+    padding-top: 0;
+    margin: 0;
+  }
+
+  .downloadcv {
+    padding-left: 4em;
+  }
+  .downloadcv h4 {
+    font-size: small;
+  }
+
+  .downloadcv i {
+    padding-top: 14px;
+    padding-bottom: 10px;
+  }
+
+  .social {
+    font-size: 15px;
+    margin: 0;
+  }
+
+  .social h4 {
+    visibility: hidden;
+    font-size: 1px;
+  }
+
+  .socialicons {
+    display: inline-block;
+    padding-left: 90px;
+  }
+}
+/*--------------------------------------------Tablet*/
+
+@media (min-width: 421px) and (max-width: 1917px) {
+  body {
+  }
+
+  #sidebar {
+      height: 900px;
+  }
+
+  #maincontent {
+      padding-top: 150px;
+      margin: 0;
+      height: auto;
+      width: 120em;
+  }
+
+  footer {
+      width: 120em;
   }
 }
