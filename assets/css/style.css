@@ -315,12 +315,18 @@ footer h4 {
   padding-left: 50px;
 }
 
+.project a {
+display: inline-flex;
+}
+
 .project i {
   color: #fafafa;
   border: 0;
   margin: 0;
   padding-left: 20px;
+  padding-top: 17px;
   font-size: 25px;
+  float: left;
 }
 
 .project a {
@@ -344,10 +350,15 @@ footer h4 {
   clear: right;
 }
 
+.downloadcv a {
+    display: inline-flex;
+}
+
 .downloadcv i {
   border: 0;
   margin: 0;
   padding-left: 15px;
+  padding-top: 20px;
   font-size: 20px;
   color: #fafafa;
 }
@@ -470,10 +481,10 @@ footer h4 {
     width: auto;
     height: auto;
     margin: 0;
+    float: none;
   }
 
   .textcontainer {
-    padding-top: 60px;
     display: inline-block;
   }
 
@@ -486,6 +497,8 @@ footer h4 {
   .text2 {
     margin-top: 40px;
     margin-bottom: 120px;
+    padding-left: 0;
+    float: left;
   }
 
   .textcontainer h4 {
@@ -503,7 +516,7 @@ footer h4 {
   .text2 p {
     font-size: 15px;
     padding-left: 65px;
-    width: 250px;
+    width: 220px;
     float: left;
   }
 
