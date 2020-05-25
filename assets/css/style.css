@@ -429,6 +429,7 @@ footer h4 {
   }
 
   .menu {
+    margin-top: -5px;
     padding: 0;
     width: 100%;
     clear: both;
@@ -445,16 +446,10 @@ footer h4 {
     padding: 0;
   }
 
-  .menuitem::selection {
-    width: 25%;
-    height: auto;
-    padding: 0;
-  }
-
   .menuitem i {
     font-size: 22px;
-    padding-left: 20px;
-    padding-top: 10px;
+    padding-left: 23px;
+    padding-top: 15px;
   }
 
   .menu li a {
@@ -469,5 +464,53 @@ footer h4 {
   }
   .generalinfocontainer {
     padding-top: 50px;
+  }
+
+  #maincontent {
+    width: auto;
+    height: auto;
+    margin: 0;
+  }
+
+  .textcontainer {
+    padding-top: 60px;
+    display: inline-block;
+  }
+
+  .text1 {
+    padding-top: 60px;
+    width: 260px;
+    
+  }
+
+  .text2 {
+    margin-top: 40px;
+    margin-bottom: 120px;
+  }
+
+  .textcontainer h4 {
+    font-size: 20px;
+  }
+  .text1 h4 {
+    width: auto;
+    float: left;
+  }
+
+  .text2 h4 {
+    padding-left: 0;
+  }
+  .text1 p,
+  .text2 p {
+    font-size: 15px;
+    padding-left: 65px;
+    width: 250px;
+    float: left;
+  }
+
+  .text1 i,
+  .text2 i {
+    padding-left: 35px;
+    float: left;
+    font-size: 25px;
   }
 }
