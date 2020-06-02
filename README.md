@@ -19,4 +19,8 @@ The app can be navigated from the navbar located on the upper right part of the 
 
 <strong>HTML5</strong>, <strong>CSS3</strong> and <strong>Bootstrap 4</strong> have been used for the creation of this application.
 
+## Icons
+Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>.
+Additional icons from <a href="https://www.fontawesome.com" title="Font Awesome">Font Awesome</a>.
+
 Thank you for reading and wish you enjoy your time with the app.
