@@ -74,25 +74,21 @@ header {
 }
 
 /*--------------------------------------------Menu*/
-#menu,
-label {
-  visibility: hidden;
-}
-
 .menu {
-  padding-left: 350px;
+  padding-left: 54.55vh;
+  width: inherit;
+  height: inherit;
   border: 0;
   margin: 0;
-  width: 70%;
-  height: 10%;
 }
 
 .menu ul {
   display: inline-flex;
+  width: -webkit-fill-available; 
   border: 0;
   margin-bottom: 0;
   padding: 0;
-  padding-top: 45px;
+  padding-top: 10px;
 }
 
 .menuitem {
@@ -144,7 +140,7 @@ label {
 
 /*--------------------------------------------Sidebar*/
 
-.sidebar {
+#sidebar {
   background-color: #949191;
   width: 350px;
   height: 510px;
@@ -153,7 +149,7 @@ label {
   float: left;
 }
 
-.sidebar h3 {
+#sidebar h3 {
   font-family: "Exo", sans-serif;
   color: #fafafa;
   padding-bottom: 25px;
@@ -163,7 +159,7 @@ label {
   font-weight: 100;
 }
 
-.sidebar hr {
+#sidebar hr {
   color: #fafafa;
   width: 115px;
   margin: 0;
@@ -478,6 +474,10 @@ footer h4 {
         float: none;
         }
 
+        #sidebar {
+            width: inherit;
+        }
+
         .textcontainer {
         display: inline-block;
         }
@@ -600,11 +600,15 @@ footer h4 {
 
   #maincontent {
     padding-top: 150px;
-    margin: 0;
+    margin-right: 420px;
     height: auto;
     width: 75%;
     display: inline-block;
     clear: left;
+  }
+
+  .menuitem {
+      width: 56.36vh;
   }
 
   footer {
