@@ -189,6 +189,46 @@ header {
   font-size: calc(11px + (16 - 11) * ((100vw - 300px) / (2000 - 300)));
 }
 
+/*--------------------------------------------Work History*/
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: calc(11px + (16 - 11) * ((100vw - 300px) / (2000 - 300)));
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #fafafa;
+}
+
+
 /*--------------------------------------------Main Content*/
 #maincontent {
   margin: 115px 450px 0 0;
@@ -197,7 +237,7 @@ header {
   float: right;
 }
 
-/*--------------------------------------------Main Content Text*/
+/*--------------------------------------Main Content Text*/
 
 .textcontainer {
   padding: 0;
@@ -223,7 +263,8 @@ header {
   width: 250px;
   color: #313131;
 }
-.text1 p {
+.text1 p,
+.text1 ul {
   font-family: "Roboto", sans-serif;
   color: #313131;
   text-align: justify;
@@ -245,7 +286,8 @@ header {
     padding-left: 170px;
 }
 
-.text2 p {
+.text2 p,
+.text2 ul {
   font-family: "Roboto", sans-serif;
   color: #313131;
   text-align: justify;
@@ -278,6 +320,29 @@ header {
 .text1 i,
 .text2 i {
   font-size: calc(25px + (35 - 25) * ((100vw - 300px) / (2000 - 300)));
+}
+
+.text1 ul,
+.text2 ul {
+    list-style: none;
+    line-height: 35px;
+}
+
+
+/*--------------------------------------------Projects & SKills*/
+.projects-item a {
+    text-decoration: none;
+    color: #313131;
+}
+
+.skills-list {
+    display: inline-block;
+}
+.skills-item i {
+    padding-top: 5px;
+    font-size: 21px;
+    color: #313131;
+
 }
 /*--------------------------------------------Footer*/
 
