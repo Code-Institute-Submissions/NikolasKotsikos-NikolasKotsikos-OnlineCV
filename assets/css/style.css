@@ -141,7 +141,7 @@ header {
 
 /*--------------------------------------------Sidebars*/
 
-#sidebar, 
+#sidebar,
 .sidebar {
   background-color: #949191;
   width: 350px;
@@ -151,11 +151,11 @@ header {
 }
 
 #sidebar {
-    height: 510px;
+  height: 510px;
 }
 
 .sidebar {
-    height: auto;
+  height: auto;
 }
 #sidebar h3 {
   font-family: "Exo", sans-serif;
@@ -174,7 +174,6 @@ header {
   margin-bottom: 20px;
   margin-top: -15px;
 }
-
 
 /*--------------------------------------------General Info*/
 
@@ -355,6 +354,7 @@ header {
 
 /*--------------------------------------------Projects & SKills*/
 .projects-item a {
+  font-size: calc(15px + (18 - 15) * ((100vw - 300px) / (2000 - 300)));
   text-decoration: none;
   color: #313131;
 }
@@ -508,7 +508,6 @@ footer h4 {
     padding: 10px 0;
     border: 0;
     margin: 0;
-    /*font-size: 24px;*/
     letter-spacing: 1px;
     font-weight: 200;
     display: inline-block;
@@ -525,7 +524,6 @@ footer h4 {
     border: 0;
     margin: 0;
     font-weight: 100;
-    /*font-size: 16px;*/
   }
 
   .menu {
@@ -546,16 +544,15 @@ footer h4 {
     height: auto;
     padding: 0;
     color: transparent;
-    /*font-size: 5px;*/
   }
 
   .menuitem i {
-    /*font-size: 22px;*/
     padding-left: 23px;
     padding-top: 15px;
   }
 
-  #sidebar {
+  #sidebar,
+  .sidebar {
     height: 40vh;
     width: 85vw;
     margin-top: 5.52vh;
@@ -565,6 +562,10 @@ footer h4 {
   .generalinfocontainer {
     padding-top: 5vh;
     padding-left: 0;
+  }
+
+  .historycontainer h3 {
+      
   }
 
   #maincontent {
@@ -596,7 +597,9 @@ footer h4 {
   }
 
   .text1 p,
-  .text2 p {
+  .text2 p,
+  .text1 ul,
+  .text2 ul {
     padding-left: 75px;
     width: 270px;
     float: left;
