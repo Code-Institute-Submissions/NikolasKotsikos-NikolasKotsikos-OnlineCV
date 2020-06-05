@@ -1,8 +1,6 @@
-## Welcome!
-
-This application is an online CV for Nikolas Kotsikos, a Junior Full Stack Developer. <br/>
+## Welcome! 
+This application is an online CV for <strong>Nikolas Kotsikos</strong>, a Junior Full Stack Developer. <br/>
 This project will at completion also be submited as a milestone project for the online course on Full Stack Development by Code Institute.<br/>
-The application is designed with a mobile first approach, but renders excellent in desktop browsers as well. <br/>
 
 ## Contents
 
@@ -13,13 +11,25 @@ Finally the contact page provides a form for users to send project suggestions a
 
 ## Navigation
 
-The app can be navigated from the navbar located on the upper right part of the users screen on desktop, or bellow the title element on mobile. 
+The app can be navigated from the navbar located on the upper right part of the users screen on desktop, or bellow the title element on mobile.<br/>
+The app provides the option for a printable version of the cv to be downloaded via the link provided in the footer.
+
+## Version
+
+<strong>Version 1.0</strong>
+
+The first version of the application supports most common screen resolutions.
+
+<strong>Update</strong>
+
+The Contact section form will have <em>JavaScript</em> functionality added in version 1.5.
 
 ## Technologies
 
-<strong>HTML5</strong>, <strong>CSS3</strong> and <strong>Bootstrap 4</strong> have been used for the creation of this application.
+<strong>HTML5</strong> and <strong>CSS3</strong> have been used for the creation of this application.
 
 ## Icons
+
 Icons from <a href="https://www.fontawesome.com" title="Font Awesome">Font Awesome</a>.
 
-Thank you for reading and wish you enjoy your time with the app.
+Thank you for reading this and wish you an enjoyful time with the app.

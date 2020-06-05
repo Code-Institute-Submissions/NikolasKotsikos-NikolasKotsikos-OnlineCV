@@ -77,7 +77,7 @@ header {
 .menu {
   width: -webkit-fill-available;
   position: absolute;
-  padding-top: 268px;
+  padding-top: 270px;
   padding-left: 350px;
   border: 0;
   margin: 0;
@@ -115,6 +115,7 @@ header {
 /*--------------------------------------------Menu-hover*/
 
 .menuitem:hover {
+  background-color: #474444;
   cursor: pointer;
 }
 
@@ -317,10 +318,15 @@ header {
   height: 150px;
   margin: 0;
   border: 0;
-  padding-left: 130px;
   clear: both;
 }
+.text2 p {
+     padding-left: 130px;
+}
 
+.text2 ul {
+     padding-left: 140px;
+}
 .text2 h4 {
   padding-left: 120px;
   float: none;
@@ -359,9 +365,10 @@ header {
 
 .skills-list {
   display: inline-block;
+  padding-left: 50px;
 }
 .skills-item i {
-  padding-top: 5px;
+  padding: 7px 25px 0 0;
   font-size: 21px;
   color: #313131;
 }
@@ -551,22 +558,35 @@ footer h4 {
 
   #sidebar,
   .sidebar {
-    height: 40vh;
     width: 85vw;
     margin-top: 5.52vh;
     padding-left: 14.8vw;
   }
 
+  #sidebar {
+    height: 40vh;
+  }
+
+  .sidebar {
+    height: max-content;
+  }
+
   .generalinfocontainer {
     padding-top: 5vh;
     padding-left: 0;
+    width: fit-content;
+    margin-left: 70px;
   }
-
-   #maincontent {
+  
+  .historycontainer {
+      width: fit-content;
+      margin-left: 45px;
+  }
+  #maincontent {
     width: auto;
     height: auto;
+    padding: 0;
     margin: 0;
-    float: none;
   }
 
   .textcontainer {
@@ -592,8 +612,7 @@ footer h4 {
 
   .text1 p,
   .text2 p,
-  .text1 ul,
-  .text2 ul {
+  .text1 ul {
     padding-left: 75px;
     width: 270px;
     float: left;
@@ -604,6 +623,12 @@ footer h4 {
     padding-left: 35px;
     padding-right: 15px;
     float: left;
+  }
+
+  .skills-list {
+      padding-left: 40px;
+      width: 270px;
+      float: left;
   }
 
   footer {
@@ -667,7 +692,7 @@ footer h4 {
   }
 }
 
-/*--------------------------------------------Tablet*/
+/*--------------------------------------------Tablet
 
 @media screen and (min-width: 421px) and (max-width: 983px) {
   header {
@@ -692,4 +717,4 @@ footer h4 {
   footer {
     width: 100%;
   }
-}
+}*/
