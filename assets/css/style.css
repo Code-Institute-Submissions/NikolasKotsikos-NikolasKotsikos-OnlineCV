@@ -77,8 +77,8 @@ header {
 .menu {
   width: -webkit-fill-available;
   position: absolute;
-  padding-top: 253px;
-  padding-left: 18.25vw;
+  padding-top: 268px;
+  padding-left: 350px;
   border: 0;
   margin: 0;
 }
@@ -87,9 +87,8 @@ header {
   display: inline-flex;
   width: -webkit-fill-available;
   border: 0;
-  margin-bottom: 0;
-  padding: 0;
-  padding-top: 10px;
+  margin: 0;
+  padding: 10px 0 0 0;
 }
 
 .menuitem {
@@ -102,7 +101,7 @@ header {
   font-family: "Exo", sans-serif;
   text-decoration: none;
   color: #fafafa;
-  font-size: calc(5px + (25 - 5) * ((100vw - 300px) / (2000 - 300)));
+  font-size: calc(5px + (23 - 5) * ((100vw - 300px) / (2000 - 300)));
   text-align: center;
   display: inline-block;
 }
@@ -255,10 +254,10 @@ header {
 
 /*--------------------------------------------Main Content*/
 #maincontent {
-  margin: 115px 450px 0 0;
+  margin: 115px 0 0 0;
   border: 0;
   padding: 0;
-  float: right;
+  float: left;
 }
 
 /*--------------------------------------Main Content Text*/
@@ -266,7 +265,6 @@ header {
 .textcontainer {
   padding: 0;
   border: 0;
-  clear: right;
   display: inline-block;
 }
 
@@ -292,7 +290,7 @@ header {
   font-family: "Roboto", sans-serif;
   color: #313131;
   text-align: justify;
-  width: 350px;
+  width: 450px;
   height: 140px;
   margin: 0;
   border: 0;
@@ -307,7 +305,7 @@ header {
 }
 
 .text2 {
-  padding-left: 170px;
+  padding-left: 250px;
 }
 
 .text2 p,
@@ -315,7 +313,7 @@ header {
   font-family: "Roboto", sans-serif;
   color: #313131;
   text-align: justify;
-  width: 350px;
+  width: 450px;
   height: 150px;
   margin: 0;
   border: 0;
@@ -474,7 +472,7 @@ footer h4 {
 
 /*--------------------------------------------Mobile*/
 
-@media (min-width: 300px) and (max-width: 420px) {
+@media screen and (min-width: 300px) and (max-width: 420px) {
   body {
     width: 100%;
   }
@@ -564,11 +562,7 @@ footer h4 {
     padding-left: 0;
   }
 
-  .historycontainer h3 {
-      
-  }
-
-  #maincontent {
+   #maincontent {
     width: auto;
     height: auto;
     margin: 0;
@@ -686,12 +680,9 @@ footer h4 {
   }
 
   #maincontent {
-    /*padding-top: 150px;
-    margin-right: 420px;
-    height: auto;
-    width: 75%;
-    display: inline-block;
-    clear: left;*/
+    margin: 115px 0 0 150px;
+    padding: 0;
+    border: 0;
   }
 
   .menuitem {
