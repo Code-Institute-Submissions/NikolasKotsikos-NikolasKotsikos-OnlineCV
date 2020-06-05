@@ -57,7 +57,7 @@ header {
 
 .titletext hr {
   margin-left: 60px;
-  width: 21.35vw;
+  max-width: 21vw;
   min-width: 300px
   color: #fafafa;
 }
@@ -110,7 +110,7 @@ header {
 .menuitem i {
   padding-right: 25px;
   color: #fafafa;
-  font-size: calc(22px + (25 - 22) * ((100vw - 300px) / (2000 - 300)));
+  font-size: calc(19px + (25 - 19) * ((100vw - 300px) / (2000 - 300)));
 }
 
 /*--------------------------------------------Menu-hover*/
@@ -264,6 +264,12 @@ header {
   display: inline-flex;
 }
 
+.contentcontainer {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
 /*--------------------------------------Main Content Text*/
 
 .textcontainer {
@@ -286,7 +292,6 @@ header {
   border: 0;
   padding-bottom: 20px;
   padding-right: 50px;
-  width: 250px;
   color: #313131;
 }
 .text1 p,
@@ -368,17 +373,17 @@ header {
 }
 
 /*--------------------------------------------Projects & SKills*/
-.projects-item a {
+.text1-item a {
   font-size: calc(15px + (18 - 15) * ((100vw - 300px) / (2000 - 300)));
   text-decoration: none;
   color: #313131;
 }
 
-.skills-list {
+.text2-list {
   display: inline-block;
   padding-left: 50px;
 }
-.skills-item i {
+.text2-item i {
   padding: 7px 25px 0 0;
   font-size: 21px;
   color: #313131;
