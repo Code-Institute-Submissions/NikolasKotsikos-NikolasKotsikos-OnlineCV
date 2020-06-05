@@ -183,7 +183,24 @@ header {
   padding-left: 50px;
   padding-top: 110px;
 }
-.generalinfo {
+
+.contactcontainer p {
+    width: 200px;
+    margin: 0 5px;
+    padding: 10px 0;
+    text-align: center;
+    font-size: calc(13px + (18 - 13) * ((100vw - 300px) / (2000 - 300)));
+    font-weight: 100;
+}
+
+.contactcontainer h3 {
+    font-family: "Exo", sans-serif;
+    margin: 0 5px;
+    padding-bottom: 10px;
+    font-size: calc(15px + (20 - 15) * ((100vw - 300px) / (2000 - 300)));
+}
+.generalinfo,
+.contactcontainer {
   font-family: "Roboto", sans-serif;
   list-style: none;
   color: #fafafa;
@@ -192,14 +209,15 @@ header {
   margin: 0;
 }
 
-.generalinfoitem {
+.generalinfoitem  {
   padding-bottom: 20px;
   font-size: calc(11px + (16 - 11) * ((100vw - 300px) / (2000 - 300)));
 }
 
 /*--------------------------------------------Work History*/
 
-.historycontainer {
+.historycontainer,
+.contactcontainer {
   width: 15.8em;
   margin-top: 5vh;
   margin-left: 7vh;
@@ -314,7 +332,8 @@ header {
   padding-left: 50px;
 }
 
-.text1 i {
+.text1 i,
+.formcontainer i {
   float: left;
   padding-right: 20px;
   color: #e98b11;
@@ -361,7 +380,8 @@ header {
 }
 
 .text1 i,
-.text2 i {
+.text2 i,
+.formcontainer i {
   font-size: calc(25px + (35 - 25) * ((100vw - 300px) / (2000 - 300)));
 }
 
@@ -388,6 +408,26 @@ header {
   font-size: 21px;
   color: #313131;
 }
+
+/*--------------------------------------------Contact Form*/
+.formcontainer h2 {
+    font-family: "Exo", sans-serif;
+    font-size: calc(14px + (34.5 - 14) * ((100vw - 300px) / (2000 - 300)));
+    color: #313131;
+}
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+}
+
 /*--------------------------------------------Footer*/
 
 footer {
