@@ -24,6 +24,8 @@ The first version of the application supports most common screen resolutions.
 
 The Contact section form will have <em>JavaScript</em> functionality added in version 1.5.
 
+A collapsible button will be also implemented in mobile to hide (by default) the sidebar content.
+ 
 ## Technologies
 
 <strong>HTML5</strong> and <strong>CSS3</strong> have been used for the creation of this application.
