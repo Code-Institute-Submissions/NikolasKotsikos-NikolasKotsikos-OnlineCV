@@ -18,7 +18,7 @@ The app provides the option for a printable version of the cv to be downloaded v
 
 <strong>Version 1.0</strong>
 
-The first version of the application supports most common screen resolutions.
+The first version of the application supports most common screen sizes.
 
 <strong>Update</strong>
 
