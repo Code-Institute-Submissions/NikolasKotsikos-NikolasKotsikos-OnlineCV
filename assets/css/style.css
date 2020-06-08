@@ -43,7 +43,7 @@ header {
   border: 0;
   padding-left: 60px;
   padding-top: 35px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 .title h1 a {
   font-family: "Exo", sans-serif;
@@ -78,7 +78,7 @@ header {
 .menu {
   width: -webkit-fill-available;
   position: absolute;
-  padding-top: 270px;
+  padding-top: 280px;
   padding-left: 350px;
   border: 0;
   margin: 0;
@@ -86,10 +86,11 @@ header {
 
 .menu ul {
   display: inline-flex;
+  height: 70px;
   width: -webkit-fill-available;
   border: 0;
   margin: 0;
-  padding: 10px 0 0 0;
+  padding: 0;
 }
 
 .menuitem {
@@ -180,8 +181,7 @@ header {
 
 .generalinfocontainer {
   clear: both;
-  padding-left: 50px;
-  padding-top: 110px;
+  padding: 17vh 5vh;
 }
 
 .contactcontainer p {
@@ -275,11 +275,13 @@ header {
 
 /*--------------------------------------------Main Content*/
 #maincontent {
-  margin: 115px 0 0 0;
+  width: 52.5vw;
   border: 0;
-  padding: 0 14.4vw;
+  margin: 0;
+  padding: 0;
   position: absolute;
   display: inline-flex;
+  float: left;
 }
 
 .contentcontainer {
@@ -291,25 +293,36 @@ header {
 /*--------------------------------------Main Content Text*/
 
 .textcontainer {
-  padding: 0;
-  border: 0;
+  height: fit-content;
   display: inline-block;
+  padding: 0;
+  margin: 18vh 0 0 0;
+  border: 0;
 }
 
+.flex-grid {
+    display: flex;
+}
+
+.flex-grid col {
+    flex: 1; 
+}
 .text1,
 .text2 {
-  width: 350px;
+  height: 20vh;
+  width: 20vw;
   float: left;
+  padding: 0 0 0 7.5vw;
 }
 
 .textcontainer h4 {
   font-family: "Exo", sans-serif;
   font-size: calc(18px + (23 - 18) * ((100vw - 300px) / (2000 - 300)));
   font-weight: 400;
+  float: left;
   margin: 0;
   border: 0;
   padding-bottom: 20px;
-  padding-right: 50px;
   color: #313131;
 }
 .text1 p,
@@ -339,10 +352,6 @@ header {
   color: #e98b11;
 }
 
-.text2 {
-  padding-left: 250px;
-}
-
 .text2 p,
 .text2 ul {
   font-family: "Roboto", sans-serif;
@@ -354,18 +363,22 @@ header {
   border: 0;
   clear: both;
 }
+
+.text2 {
+    padding: 0 0 0 6vw;
+}
 .text2 p {
-  padding-left: 130px;
+  padding-left: 70px;
 }
 
 .text2 ul {
   padding-left: 130px;
 }
-.text2 h4 {
-  padding-left: 120px;
-  float: none;
-}
 
+.text1 h4,
+.text2 h4 {
+    float: left;
+}
 .text2 i {
   float: left;
   padding-left: 65px;
@@ -542,9 +555,7 @@ footer h4 {
 
 /*--------------------------------------------Media Queries*/
 
-/*--------------------------------------------Mobile*/
-
-@media screen and (min-width: 300px) and (max-width: 600px) {
+@media screen and (min-width: 300px) and (max-width: 802px) {
   body {
     width: 100%;
   }
