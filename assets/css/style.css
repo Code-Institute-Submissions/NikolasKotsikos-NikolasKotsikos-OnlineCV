@@ -153,11 +153,11 @@ header {
 }
 
 #sidebar {
-  height: 60.8vh;
+  height: 42em;
 }
 
 .sidebar {
-  height: 60.8vh;
+  height: 42em;
 }
 #sidebar h3 {
   font-family: "Exo", sans-serif;
@@ -274,55 +274,33 @@ header {
 }
 
 /*--------------------------------------------Main Content*/
-#maincontent {
-  width: 52.5vw;
-  border: 0;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  display: inline-flex;
-  float: left;
-}
 
 .contentcontainer {
+    height: 54.7vh;
     padding: 0;
     margin: 0;
     border: 0;
 }
 
-/*--------------------------------------Main Content Text*/
-
-.textcontainer {
-  height: fit-content;
-  display: inline-block;
-  padding: 0;
-  margin: 18vh 0 0 0;
+.flex-grid {
+  display: flex;
+  padding: 13vh 8.3vw;
   border: 0;
 }
 
-.flex-grid {
-    display: flex;
-}
-
-.flex-grid col {
+.flex-grid .col {
     flex: 1; 
-}
-.text1,
-.text2 {
-  height: 20vh;
-  width: 20vw;
-  float: left;
-  padding: 0 0 0 7.5vw;
+    padding: 20px;
 }
 
-.textcontainer h4 {
+.flex-grid h4 {
   font-family: "Exo", sans-serif;
   font-size: calc(18px + (23 - 18) * ((100vw - 300px) / (2000 - 300)));
   font-weight: 400;
   float: left;
   margin: 0;
   border: 0;
-  padding-bottom: 20px;
+  padding-bottom: 25px;
   color: #313131;
 }
 .text1 p,
@@ -330,15 +308,9 @@ header {
   font-family: "Roboto", sans-serif;
   color: #313131;
   text-align: justify;
-  width: 450px;
-  height: 140px;
   margin: 0;
   border: 0;
   clear: both;
-}
-
-.text1 p {
-  padding-left: 70px;
 }
 
 .text1 ul {
@@ -357,18 +329,9 @@ header {
   font-family: "Roboto", sans-serif;
   color: #313131;
   text-align: justify;
-  width: 450px;
-  height: 150px;
   margin: 0;
   border: 0;
   clear: both;
-}
-
-.text2 {
-    padding: 0 0 0 6vw;
-}
-.text2 p {
-  padding-left: 70px;
 }
 
 .text2 ul {
@@ -381,7 +344,6 @@ header {
 }
 .text2 i {
   float: left;
-  padding-left: 65px;
   padding-right: 25px;
   color: #e98b11;
 }
@@ -556,10 +518,6 @@ footer h4 {
 /*--------------------------------------------Media Queries*/
 
 @media screen and (min-width: 300px) and (max-width: 802px) {
-  body {
-    width: 100%;
-  }
-
   .title {
     display: inline;
   }
@@ -632,12 +590,11 @@ footer h4 {
     padding-left: 23px;
     padding-top: 15px;
   }
-
+  
   #sidebar,
   .sidebar {
     width: 100%;
     margin-top: 5.52vh;
-    padding-left: 14.8vw;
   }
 
   #sidebar {
@@ -659,32 +616,21 @@ footer h4 {
     width: fit-content;
     margin-left: 45px;
   }
-  #maincontent {
-    width: auto;
-    height: auto;
-    padding: 0;
-    margin: 0;
-    position: relative;
+ 
+  .contentcontainer {
+      height: auto; 
   }
+  .flex-grid {
+      display: block;
+      clear: both;
+    }
+   
+   .flex-grid .col {
+      width: 100%;
+      margin: 0 0 10px 0;
+    }
 
-  .textcontainer {
-    display: inline-block;
-  }
-
-  .text1 {
-    padding-top: 60px;
-    padding-bottom: 150px;
-    width: 260px;
-  }
-
-  .text2 {
-    margin-top: 40px;
-    margin-bottom: 150px;
-    padding-left: 0;
-    float: left;
-  }
-
-  .text2 h4 {
+   .text2 h4 {
     padding-left: 0;
   }
 
@@ -695,14 +641,11 @@ footer h4 {
   .text1 p,
   .text2 p,
   .text1 ul {
-    padding-left: 75px;
-    width: 70vw;
-    float: left;
+    line-height: 25px;
   }
 
   .text1 i,
   .text2 i {
-    padding-left: 35px;
     padding-right: 15px;
     float: left;
   }
@@ -715,11 +658,8 @@ footer h4 {
 
   footer {
     height: 170px;
-    position: inherit;
-  }
-
-  .project {
-    padding: 0 22vw;
+    text-align: center;
+    position: fixed;
   }
 
   .project a {
@@ -738,7 +678,7 @@ footer h4 {
   }
 
   .downloadcv {
-    padding: 0 22vw;
+      padding: 2vh 0;
   }
 
   .downloadcv a {
@@ -753,7 +693,7 @@ footer h4 {
   .social {
     font-size: 15px;
     margin: 0;
-    margin-left: -15px;
+    display: flow-root;
   }
 
   .social h4 {
@@ -761,8 +701,4 @@ footer h4 {
     font-size: 1px;
   }
 
-  .socialicons {
-    display: inline-block;
-    padding: 0 26.5vw;
-  }
 }
