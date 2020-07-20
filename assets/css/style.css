@@ -6,6 +6,7 @@ html,
 body {
   height: 100%;
   margin: 0;
+  position: relative;
 }
 
 /*--------------------------------------------Header*/
@@ -277,7 +278,7 @@ header {
 /*--------------------------------------------Main Content*/
 
 .contentcontainer {
-  height: calc(83vh - 83px);
+  height: calc(80vh - 80px);
   padding: 0;
   margin: 0;
   border: 0;
@@ -438,7 +439,8 @@ button[type="submit"] {
 footer {
   background-color: #3b3a3a;
   width: 100%;
-  height: 76.5px;
+  height: 77px;
+  bottom: 0;
   position: absolute;
 }
 
