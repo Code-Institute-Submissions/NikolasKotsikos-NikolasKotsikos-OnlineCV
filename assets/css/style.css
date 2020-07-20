@@ -2,16 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo&family=Roboto&display=swap");
 
 /*--------------------------------------------Body*/
-html {
-    height: 100%;
-    box-sizing: border-box;
-}
-
- 
+html,
 body {
-   position: relative;
-min-height: 100%;
-margin: 0;
+  height: 100%;
+  margin: 0;
 }
 
 /*--------------------------------------------Header*/
@@ -53,7 +47,7 @@ header {
 .title h1 a {
   font-family: "Exo", sans-serif;
   text-decoration: none;
-  font-size: calc(22px + (50 - 22) * ((100vw - 300px) / (2000 - 300)));
+  font-size: calc(17px + (50 - 17) * ((100vw - 300px) / (2560 - 300)));
   letter-spacing: 4px;
   border: 0px;
   padding-bottom: 50px;
@@ -62,15 +56,14 @@ header {
 
 .titletext hr {
   margin-left: 60px;
-  max-width: 21vw;
-  min-width: 300px
+  max-width: 25.5vh;
   color: #fafafa;
 }
 
 .title h2 {
   font-family: "Exo", sans-serif;
   font-weight: 200;
-  font-size: calc(14px + (34.5 - 14) * ((100vw - 300px) / (2000 - 300)));
+  font-size: calc(12px + (34.5 - 12) * ((100vw - 300px) / (2560 - 300)));
   padding-top: 0px;
   border: 0;
   margin: 60px;
@@ -108,7 +101,7 @@ header {
   font-family: "Exo", sans-serif;
   text-decoration: none;
   color: #fafafa;
-  font-size: calc(5px + (23 - 5) * ((100vw - 300px) / (2000 - 300)));
+  font-size: calc(1px + (23 - 1) * ((100vw - 300px) / (2560 - 300)));
   text-align: center;
   display: inline-block;
 }
@@ -116,7 +109,7 @@ header {
 .menuitem i {
   padding-right: 25px;
   color: #fafafa;
-  font-size: calc(19px + (25 - 19) * ((100vw - 300px) / (2000 - 300)));
+  font-size: calc(19px + (25 - 19) * ((100vw - 300px) / (2560 - 300)));
 }
 
 /*--------------------------------------------Menu-hover*/
@@ -151,14 +144,11 @@ header {
 #sidebar,
 .sidebar {
   background-color: #949191;
+  height: inherit;
   width: 350px;
   border: 0;
   margin: 0;
   float: left;
-}
-
-#sidebar {
- height: calc(100vh - 426.5px);
 }
 
 #sidebar h3 {
@@ -167,7 +157,7 @@ header {
   padding-bottom: 25px;
   border: 0;
   margin: 0;
-  font-size: calc(13px + (18 - 13) * ((100vw - 300px) / (2000 - 300)));
+  font-size: calc(13px + (18 - 13) * ((100vw - 300px) / (2560 - 300)));
   font-weight: 100;
 }
 
@@ -179,27 +169,26 @@ header {
   margin-top: -15px;
 }
 
-/*--------------------------------------------Contact Side*/
+/*--------------------------------------------Contact Sidetext*/
 .contactcontainer {
-    clear: both;
-    padding: 30.5vh 5.6vh;
-    }
+  clear: both;
+  padding: 30.5vh 5.6vh;
+}
 
 .contactcontainer p {
-    margin: 0;
-    padding: 10px 0;
-    text-align: center;
-    font-size: calc(13px + (18 - 13) * ((100vw - 300px) / (2000 - 300)));
-    font-weight: 100;
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+  font-size: calc(13px + (18 - 13) * ((100vw - 300px) / (2560 - 300)));
+  font-weight: 100;
 }
 
 .contactcontainer h3 {
-    font-family: "Exo", sans-serif;
-    margin: 0 5px;
-    padding-bottom: 10px;
-    font-size: calc(15px + (20 - 15) * ((100vw - 300px) / (2000 - 300)));
+  font-family: "Exo", sans-serif;
+  margin: 0 5px;
+  padding-bottom: 10px;
+  font-size: calc(15px + (20 - 15) * ((100vw - 300px) / (2560 - 300)));
 }
-
 
 .generalinfocontainer {
   clear: both;
@@ -216,9 +205,9 @@ header {
   margin: 0;
 }
 
-.generalinfoitem  {
+.generalinfoitem {
   padding-bottom: 20px;
-  font-size: calc(11px + (16 - 11) * ((100vw - 300px) / (2000 - 300)));
+  font-size: calc(11px + (16 - 11) * ((100vw - 300px) / (2560 - 300)));
 }
 
 /*--------------------------------------------Work History*/
@@ -232,7 +221,7 @@ header {
 
 .contactcontainer {
   clear: both;
-  padding: 26.5vh 5.6vh;  
+  padding: 26.5vh 5.6vh;
   text-align: center;
 }
 .historycontainer h3 {
@@ -241,7 +230,7 @@ header {
   padding: 30px 0 0 25px;
   border: 0;
   margin: 0;
-  font-size: calc(12px + (18 - 12) * ((100vw - 300px) / (2000 - 300)));
+  font-size: calc(12px + (18 - 12) * ((100vw - 300px) / (2560 - 300)));
   font-weight: 100;
 }
 .timeline-item {
@@ -249,7 +238,7 @@ header {
   position: relative;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: calc(7px + (12 - 7) * ((100vw - 300px) / (2000 - 300)));
+  font-size: calc(7px + (12 - 7) * ((100vw - 300px) / (2560 - 300)));
   color: #fafafa;
   border-left: 1px solid;
 }
@@ -288,26 +277,30 @@ header {
 /*--------------------------------------------Main Content*/
 
 .contentcontainer {
-    height: 54.7vh;
-    padding: 0;
-    margin: 0;
-    border: 0;
+  height: calc(83vh - 83px);
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 
 .flex-grid {
+  height: inherit;
   display: flex;
-  padding: 13vh 8.3vw;
+  flex-direction: row;
+  flex-flow: wrap;
   border: 0;
 }
 
 .flex-grid .col {
-    flex: 1; 
+    flex: 0 0 20vw;
+    height: min-content;
     padding: 20px;
+    margin: auto;
 }
 
 .flex-grid h4 {
   font-family: "Exo", sans-serif;
-  font-size: calc(18px + (23 - 18) * ((100vw - 300px) / (2000 - 300)));
+  font-size: calc(18px + (23 - 18) * ((100vw - 300px) / (2560 - 300)));
   font-weight: 400;
   float: left;
   margin: 0;
@@ -336,7 +329,7 @@ header {
 }
 
 .formcontainer i {
-    color: #e98b11;
+  color: #e98b11;
 }
 .text2 p,
 .text2 ul {
@@ -348,10 +341,9 @@ header {
   clear: both;
 }
 
-
 .text1 h4,
 .text2 h4 {
-    float: left;
+  float: left;
 }
 .text2 i {
   float: left;
@@ -361,32 +353,32 @@ header {
 
 .text1 p,
 .text2 p {
-  font-size: calc(14px + (17 - 14) * ((100vw - 300px) / (2000 - 300)));
+  font-size: calc(14px + (17 - 14) * ((100vw - 300px) / (2560 - 300)));
   line-height: 35px;
 }
 
 .text1 i,
 .text2 i,
 .formcontainer i {
-  font-size: calc(25px + (45 - 25) * ((100vw - 300px) / (2000 - 300)));
+  font-size: calc(17px + (45 - 17) * ((100vw - 300px) / (2560 - 300)));
 }
 
 .text1 ul,
 .text2 ul {
-  font-size: calc(14px + (17 - 14) * ((100vw - 300px) / (2000 - 300)));
+  font-size: calc(14px + (17 - 14) * ((100vw - 300px) / (2560 - 300)));
   list-style: none;
   line-height: 35px;
 }
 
 /*--------------------------------------------Projects & SKills*/
 .text1-item a {
-  font-size: calc(15px + (18 - 15) * ((100vw - 300px) / (2000 - 300)));
+  font-size: calc(15px + (18 - 15) * ((100vw - 300px) / (2560 - 300)));
   text-decoration: none;
   color: #313131;
 }
 
 .text2-list {
-    padding-left: 70px;
+  padding-left: 70px;
 }
 
 .text2-item i {
@@ -398,43 +390,47 @@ header {
 /*--------------------------------------------Contact Form*/
 
 .contactform {
-    padding: 1vh 8.3vw; 
+  padding: 1vh 8.3vw;
 }
 .formcontainer h2 {
-    font-family: "Exo", sans-serif;
-    font-size: calc(14px + (34.5 - 14) * ((100vw - 300px) / (2000 - 300)));
-    color: #313131;
-    margin: 0 0 20px 0;
+  font-family: "Exo", sans-serif;
+  font-size: calc(14px + (34.5 - 14) * ((100vw - 300px) / (2560 - 300)));
+  color: #313131;
+  margin: 0 0 20px 0;
 }
 form {
-    font-family: "Roboto", sans-serif;
-    padding-top: 10px;
-    margin: 0 auto;
-    max-width: 70%;
-    display: grid;
-    justify-content: center;
+  font-family: "Roboto", sans-serif;
+  padding-top: 10px;
+  margin: 10vh auto;
+  max-width: 70%;
+  display: grid;
+  justify-content: center;
 }
 
 form input,
 form textarea {
-    margin-bottom: 30px;
-    width: 35vw;
-    font-family: "Roboto", sans-serif;
+  margin-bottom: 30px;
+  width: 35vw;
+  font-family: "Roboto", sans-serif;
 }
 
 form span {
-    display: inline;
-    text-align: center;
+  display: inline-flex;
+  text-align: center;
+  margin: auto;
+}
 
+form span i {
+  padding-right: 20px;
 }
 
 button[type="submit"] {
-    width: 30%;
-    padding: 5px;
-    margin: 0 12vw;
-    text-align: center;    
-    color: #fafafa;
-    background-color: #16c224;
+  width: 30%;
+  padding: 5px;
+  margin: 0 12vw;
+  text-align: center;
+  color: #fafafa;
+  background-color: #16c224;
 }
 
 /*--------------------------------------------Footer*/
@@ -443,12 +439,7 @@ footer {
   background-color: #3b3a3a;
   width: 100%;
   height: 76.5px;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  clear: both;
-  position: fixed;
-   
+  position: absolute;
 }
 
 footer h3 {
@@ -471,7 +462,7 @@ footer h4 {
 }
 
 .project h3 {
-  font-size: calc(13px + (18 - 13) * ((100vw - 300px) / (2000 - 300)));
+  font-size: calc(13px + (18 - 13) * ((100vw - 300px) / (2560 - 300)));
 }
 
 .project a {
@@ -484,7 +475,7 @@ footer h4 {
   margin: 0;
   padding-left: 20px;
   padding-top: 20.5px;
-  font-size: calc(20px + (28 - 20) * ((100vw - 300px) / (2000 - 300)));
+  font-size: calc(20px + (28 - 20) * ((100vw - 300px) / (2560 - 300)));
   float: left;
 }
 
@@ -510,7 +501,7 @@ footer h4 {
 }
 
 .downloadcv h4 {
-  font-size: calc(11px + (15 - 11) * ((100vw - 300px) / (2000 - 300)));
+  font-size: calc(11px + (15 - 11) * ((100vw - 300px) / (2560 - 300)));
 }
 
 .downloadcv a {
@@ -523,7 +514,7 @@ footer h4 {
   margin: 0;
   padding-left: 15px;
   padding-top: 20.5px;
-  font-size: calc(15px + (20 - 15) * ((100vw - 300px) / (2000 - 300)));
+  font-size: calc(15px + (20 - 15) * ((100vw - 300px) / (2560 - 300)));
   color: #fafafa;
 }
 
@@ -551,7 +542,7 @@ footer h4 {
 
 /*--------------------------------------------Media Queries*/
 
-@media screen and (min-width: 300px) and (max-width: 802px) {
+@media screen and (min-width: 300px) and (max-width: 1286px) {
   .title {
     display: inline;
   }
@@ -568,8 +559,8 @@ footer h4 {
 
   .titletext {
     text-align: center;
-    margin-top: 0;
-    margin-left: 35px;
+    margin-top: -1px;
+    margin-left: 87px;
   }
 
   .title h1 {
@@ -589,8 +580,8 @@ footer h4 {
 
   .titletext hr {
     padding: 0;
-    margin: 0 0 10px 0;
-    width: 56vw;
+    margin: 5px 0 10px 0;
+    width: 21.5vh;
   }
 
   .title h2 {
@@ -601,7 +592,7 @@ footer h4 {
   }
 
   .menu {
-    margin-top: 101px;
+    margin-top: 100px;
     padding: 0;
     width: 100%;
     clear: both;
@@ -624,52 +615,54 @@ footer h4 {
     padding-left: 23px;
     padding-top: 15px;
   }
-  
+
   #sidebar,
   .sidebar {
     width: 100%;
-    margin-top: 5.52vh;
+    height: calc(45vh - 45px);
+    margin-top: 4vh;
   }
 
-  #sidebar {
-    height: 40vh;
-  }
-
-  .sidebar {
-    height: max-content;
+  .generalinfocontainer,
+  .historycontainer,
+  .contactcontainer {
+    width: fit-content;
+    margin: auto;
   }
 
   .generalinfocontainer {
-   width: fit-content;
-   padding: 5vh 16vw;
-        
+    padding-top: 5.5vh;
   }
 
   .historycontainer {
-    width: fit-content;
-    margin: 0;
-    padding-left: 16vw;
+    padding-top: 3vh;
   }
- 
-  .contentcontainer {
-      height: auto; 
-  }
-  .flex-grid {
-      display: block;
-      position: relative;
-      clear: both;
-    }
-   
-   .flex-grid .col {
-      margin: 0 0 10px 0;
-    }
 
-   .text2 h4 {
+  .historycontainer h3 {
+    padding-top: 0;
+  }
+
+  .contentcontainer {
+    height: auto;
+  }
+
+  .contactcontainer {
+    padding-top: 10vh;
+  }
+
+  .flex-grid {
+    display: block;
+    position: relative;
+    clear: both;
+  }
+
+ 
+  .text2 h4 {
     padding-left: 0;
   }
 
   .text2 ul {
-      padding-left: 56px;
+    padding-left: 56px;
   }
 
   .text1 p,
@@ -685,7 +678,7 @@ footer h4 {
   }
 
   .fa-certificate {
-      width: 32.06px;
+    width: 32.06px;
   }
 
   .skills-list {
@@ -696,26 +689,24 @@ footer h4 {
 
   form input,
   form textarea {
-   width: 50vw;
-
+    width: 50vw;
   }
 
   .button[type="submit"] {
-      font-size: 12px;
-      width: 70%;
-      padding: 10px;
-      margin: 0 9vw;
+    font-size: 12px;
+    width: 70%;
+    padding: 10px;
+    margin: 0 9vw;
   }
 
   footer {
-    height: 170px;
+    height: 195px;
     text-align: center;
-    position: relative;
-}
+  }
 
   .project {
     padding: 0;
-    float: none; 
+    float: none;
   }
   .project a {
     margin-right: 5px;
@@ -733,8 +724,8 @@ footer h4 {
   }
 
   .downloadcv {
-      padding: 2vh 0;
-      width: auto;
+    padding-top: 2vh;
+    width: auto;
   }
 
   .downloadcv a {
@@ -756,5 +747,23 @@ footer h4 {
     visibility: hidden;
     font-size: 1px;
   }
+}
 
+@media screen and (min-width: 865px) and (max-width: 1286px) {
+  .title hr {
+    max-width: 193px;
+  }
+
+  .title h1 a {
+    font-size: 24px;
+  }
+
+  .title h2 {
+    font-size: 16px;
+  }
+
+  #sidebar, .sidebar {
+    height: calc(25vh - 25px);
+    margin-top: 3.5vh;
+  }
 }
