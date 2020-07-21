@@ -362,7 +362,7 @@ header {
 .text1 i,
 .text2 i,
 .formcontainer i {
-  font-size: calc(17px + (45 - 17) * ((100vw - 300px) / (2560 - 300)));
+  font-size: calc(15.5px + (35 - 15.5) * ((100vw - 300px) / (2560 - 300)));
 }
 
 .text1 ul,
@@ -793,5 +793,18 @@ footer h4 {
     
     footer {
         position: fixed;
+    }
+}
+
+@media screen and (min-height: 1360px) {
+    
+    .contentcontainer {
+    height: calc(88.5vh - 135px);
+    }
+
+    .historycontainer {
+        height: auto;
+        margin: 0 auto;
+        margin-top: 10vh;
     }
 }
