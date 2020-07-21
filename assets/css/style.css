@@ -56,8 +56,7 @@ header {
 }
 
 .titletext hr {
-  margin-left: 60px;
-  max-width: 25.5vh;
+  max-width: 41.5vh;
   color: #fafafa;
 }
 
@@ -75,6 +74,7 @@ header {
 
 /*--------------------------------------------Menu*/
 .menu {
+  display: flex;
   width: -webkit-fill-available;
   position: absolute;
   padding-top: 280px;
@@ -97,7 +97,7 @@ header {
   list-style: none;
   border: 0;
   margin: 0;
-  width: 18.26vw;
+  flex: 1;
   padding: 20px 50px;
   font-family: "Exo", sans-serif;
   text-decoration: none;
@@ -171,17 +171,31 @@ header {
 }
 
 /*--------------------------------------------Contact Sidetext*/
+.generalinfo,
 .contactcontainer {
-  clear: both;
-  padding: 30.5vh 5.6vh;
+  font-family: "Roboto", sans-serif;
+  list-style: none;
+  color: #fafafa;
+}
+
+.generalinfo {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+.contactcontainer {
+  margin-top: 23vh;
+  text-align: center;
 }
 
 .contactcontainer p {
-  margin: 0;
+  margin: auto;
   padding: 10px 0;
   text-align: center;
   font-size: calc(13px + (18 - 13) * ((100vw - 300px) / (2560 - 300)));
   font-weight: 100;
+  width: 9vw;
 }
 
 .contactcontainer h3 {
@@ -192,18 +206,10 @@ header {
 }
 
 .generalinfocontainer {
-  clear: both;
-  padding: 17vh 5vh;
-}
-
-.generalinfo,
-.contactcontainer {
-  font-family: "Roboto", sans-serif;
-  list-style: none;
-  color: #fafafa;
   padding: 0;
-  border: 0;
-  margin: 0;
+  padding-top: 80px;
+  margin: auto;
+  width: fit-content;
 }
 
 .generalinfoitem {
@@ -220,11 +226,6 @@ header {
   margin-left: 7vh;
 }
 
-.contactcontainer {
-  clear: both;
-  padding: 26.5vh 5.6vh;
-  text-align: center;
-}
 .historycontainer h3 {
   font-family: "Exo", sans-serif;
   color: #fafafa;
@@ -278,7 +279,7 @@ header {
 /*--------------------------------------------Main Content*/
 
 .contentcontainer {
-  height: calc(80vh - 80px);
+  height: calc(70vh - 70px);
   padding: 0;
   margin: 0;
   border: 0;
@@ -293,15 +294,15 @@ header {
 }
 
 .flex-grid .col {
-    flex: 0 0 20vw;
-    height: min-content;
-    padding: 20px;
-    margin: auto;
+  flex: 0 0 20vw;
+  height: min-content;
+  padding: 20px;
+  margin: 9.5vh auto;
 }
 
 .flex-grid h4 {
   font-family: "Exo", sans-serif;
-  font-size: calc(18px + (23 - 18) * ((100vw - 300px) / (2560 - 300)));
+  font-size: calc(17px + (23 - 17) * ((100vw - 300px) / (2560 - 300)));
   font-weight: 400;
   float: left;
   margin: 0;
@@ -391,7 +392,11 @@ header {
 /*--------------------------------------------Contact Form*/
 
 .contactform {
-  padding: 1vh 8.3vw;
+  padding: 0 8.3vw;
+}
+
+.flex-grid > .formcontainer {
+  margin: 0 auto;
 }
 .formcontainer h2 {
   font-family: "Exo", sans-serif;
@@ -399,6 +404,7 @@ header {
   color: #313131;
   margin: 0 0 20px 0;
 }
+
 form {
   font-family: "Roboto", sans-serif;
   padding-top: 10px;
@@ -441,7 +447,7 @@ footer {
   width: 100%;
   height: 77px;
   bottom: 0;
-  position: absolute;
+  position: fixed;
 }
 
 footer h3 {
@@ -561,8 +567,8 @@ footer h4 {
 
   .titletext {
     text-align: center;
-    margin-top: -1px;
-    margin-left: 87px;
+    margin-top: 5px;
+    margin-left: 42px;
   }
 
   .title h1 {
@@ -582,22 +588,21 @@ footer h4 {
 
   .titletext hr {
     padding: 0;
-    margin: 5px 0 10px 0;
-    width: 21.5vh;
+    margin: 5px 0 5px 0;
   }
 
   .title h2 {
-    padding: 0 0 10px 0;
+    padding: 0 0 8px 0;
     border: 0;
     margin: 0;
     font-weight: 100;
   }
 
   .menu {
-    margin-top: 100px;
+    margin-top: -5.6px;
     padding: 0;
     width: 100%;
-    clear: both;
+    position: relative;
   }
 
   .menu ul {
@@ -621,23 +626,31 @@ footer h4 {
   #sidebar,
   .sidebar {
     width: 100%;
-    height: calc(45vh - 45px);
-    margin-top: 4vh;
   }
 
   .generalinfocontainer,
   .historycontainer,
   .contactcontainer {
     width: fit-content;
-    margin: auto;
+    margin: 0 auto;
+  }
+
+  .contactcontainer {
+    padding-top: 9vh;
+    height: inherit;
+  }
+  .contactcontainer p {
+    padding-bottom: 15px;
+    width: auto;
   }
 
   .generalinfocontainer {
-    padding-top: 5.5vh;
+    margin-top: 80px;
   }
 
   .historycontainer {
-    padding-top: 3vh;
+    padding-top: 9vh;
+    height: inherit;
   }
 
   .historycontainer h3 {
@@ -647,18 +660,22 @@ footer h4 {
   .contentcontainer {
     height: auto;
   }
-
-  .contactcontainer {
-    padding-top: 10vh;
-  }
-
+  
   .flex-grid {
-    display: block;
-    position: relative;
+    flex-direction: column;
     clear: both;
   }
 
+  .flex-grid .text2 {
+    margin-left: 26.7vw;
+  }
  
+ .flex-grid > .what, 
+ .flex-grid > .why {
+    margin: 9.5vh auto;
+    width: 75vw;
+}
+ }
   .text2 h4 {
     padding-left: 0;
   }
@@ -704,6 +721,7 @@ footer h4 {
   footer {
     height: 195px;
     text-align: center;
+    position: inherit;
   }
 
   .project {
@@ -762,10 +780,5 @@ footer h4 {
 
   .title h2 {
     font-size: 16px;
-  }
-
-  #sidebar, .sidebar {
-    height: calc(25vh - 25px);
-    margin-top: 3.5vh;
   }
 }
