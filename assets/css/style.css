@@ -626,6 +626,7 @@ footer h4 {
   #sidebar,
   .sidebar {
     width: 100%;
+    height: auto;
   }
 
   .generalinfocontainer,
@@ -646,10 +647,11 @@ footer h4 {
 
   .generalinfocontainer {
     margin-top: 80px;
+    padding: 0;
   }
 
   .historycontainer {
-    padding-top: 9vh;
+    padding-top: calc(13.4vh - 5px);
     height: inherit;
   }
 
@@ -662,20 +664,21 @@ footer h4 {
   }
   
   .flex-grid {
-    flex-direction: column;
+    display: block;
     clear: both;
+    padding-top: 0.75vh;
   }
 
-  .flex-grid .text2 {
-    margin-left: 26.7vw;
-  }
- 
- .flex-grid > .what, 
- .flex-grid > .why {
+ .flex-grid .col {
     margin: 9.5vh auto;
     width: 75vw;
 }
+
+.flex-grid > .formcontainer {
+    margin: 4.76vh auto;
+
  }
+
   .text2 h4 {
     padding-left: 0;
   }
@@ -781,4 +784,14 @@ footer h4 {
   .title h2 {
     font-size: 16px;
   }
+}
+
+@media screen and (min-height: 1191px){
+    .contentcontainer {
+        height: calc(78.5vh - 135px);
+    }
+    
+    footer {
+        position: fixed;
+    }
 }
