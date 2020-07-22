@@ -48,7 +48,7 @@ header {
 .title h1 a {
   font-family: "Exo", sans-serif;
   text-decoration: none;
-  font-size: calc(17px + (50 - 17) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(15px + (40 - 15) * ((100vw - 300px) / (1600 - 300)));
   letter-spacing: 4px;
   border: 0px;
   padding-bottom: 50px;
@@ -56,14 +56,15 @@ header {
 }
 
 .titletext hr {
-  max-width: 41.5vh;
+  max-width: 21vw;
+  margin-left: 57px;
   color: #fafafa;
 }
 
 .title h2 {
   font-family: "Exo", sans-serif;
   font-weight: 200;
-  font-size: calc(12px + (34.5 - 12) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(11px + (29 - 11) * ((100vw - 300px) / (1600 - 300)));
   padding-top: 0px;
   border: 0;
   margin: 60px;
@@ -103,7 +104,7 @@ header {
   font-family: "Exo", sans-serif;
   text-decoration: none;
   color: #fafafa;
-  font-size: calc(1px + (23 - 1) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(1px + (19 - 1) * ((100vw - 300px) / (1600 - 300)));
   text-align: center;
   display: inline-block;
 }
@@ -111,7 +112,7 @@ header {
 .menuitem i {
   padding-right: 25px;
   color: #fafafa;
-  font-size: calc(19px + (25 - 19) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(18px + (20 - 18) * ((100vw - 300px) / (1600 - 300)));
 }
 
 /*--------------------------------------------Menu-hover*/
@@ -171,7 +172,7 @@ header {
   margin-top: -15px;
 }
 
-/*--------------------------------------------Contact Sidetext*/
+/*--------------------------------------------Sidetext*/
 .generalinfo,
 .contactcontainer {
   font-family: "Roboto", sans-serif;
@@ -208,7 +209,7 @@ header {
 
 .generalinfocontainer {
   padding: 0;
-  padding-top: 80px;
+  padding-top: 12vh;
   margin: auto;
   width: fit-content;
 }
@@ -223,8 +224,8 @@ header {
 .historycontainer {
   height: calc(100vh - 426.5px);
   width: 15.8em;
-  margin-top: 5vh;
-  margin-left: 7vh;
+  margin-top: 1.5vh;
+  margin-left: 3vw;
 }
 
 .historycontainer h3 {
@@ -311,6 +312,7 @@ header {
   padding-bottom: 25px;
   color: #313131;
 }
+
 .text1 p,
 .text1 ul {
   font-family: "Roboto", sans-serif;
@@ -356,7 +358,7 @@ header {
 
 .text1 p,
 .text2 p {
-  font-size: calc(14px + (17 - 14) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(10px + (15 - 10) * ((100vw - 300px) / (1600 - 300)));
   line-height: 35px;
 }
 
@@ -368,7 +370,7 @@ header {
 
 .text1 ul,
 .text2 ul {
-  font-size: calc(14px + (17 - 14) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(9px + (14 - 9) * ((100vw - 300px) / (1600 - 300)));
   list-style: none;
   line-height: 35px;
 }
@@ -523,7 +525,7 @@ footer h4 {
   margin: 0;
   padding-left: 15px;
   padding-top: 20.5px;
-  font-size: calc(15px + (20 - 15) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(15px + (20 - 15) * ((100vw - 300px) / (1600- 300)));
   color: #fafafa;
 }
 
@@ -600,7 +602,7 @@ footer h4 {
   }
 
   .menu {
-    margin-top: -5.6px;
+    margin: -5.6px 0;
     padding: 0;
     width: 100%;
     position: relative;
@@ -773,7 +775,7 @@ footer h4 {
   }
 }
 
-@media screen and (min-width: 865px) and (max-width: 1286px) {
+@media screen and (min-width: 700px) and (max-width: 1286px) {
   .title hr {
     max-width: 193px;
   }
@@ -809,3 +811,4 @@ footer h4 {
         margin-top: 10vh;
     }
 }
+
