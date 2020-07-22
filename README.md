@@ -14,20 +14,20 @@ It also provides links to connect with me on social media and an option to downl
 
     *   ##### First Time Visitor Goals
 
-        1. I want to easily understand the main purpose of the site and learn more about the organisation.
-        2. I want to be able to easily navigate throughout the site to find information regarding Nikolas.
+        1. I want to easily understand the main purpose of the site.
+        2. I want to be able to easily navigate throughout the site to form an impression of Nikolas as a professional.
         
     *   ##### Returning Visitor Goals
 
-        1. I want to contact Nikolas with any questions I may have.
-        2. I want to be able to easily get a printable copy of Nikolas's information.
+        1. I want to contact you with any questions I may have.
+        2. I want to be able to easily get a printable resume of the information.
         
 
     *   ##### Frequent User Goals
 
         1. I want to check to see if there are any newly added projects.
         2. I want to check to see if there are any newly added education milestones.
-        3. I want to easily connect with Nikolas on social media.
+        3. I want to easily connect with you on social media.
 
 
 *   #### Design
@@ -52,7 +52,7 @@ It also provides links to connect with me on social media and an option to downl
 
 ### Features
 
-*   Responsive on all device sizes.
+*   Responsive on *all* common device sizes.
 
 
 
@@ -87,34 +87,34 @@ It also provides links to connect with me on social media and an option to downl
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. The code passed with errors being returned about correct values.
 The results were submitted as received after consultation with Code Institute's tutor support.
 
-*   [W3C Markup Validator](https://validator.w3.org/) - [Results](https://github.com/)
-*   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+*   [W3C Markup Validator](https://validator.w3.org/) - [Results](https://github.com/NikolasKotsikos/NikolasKotsikos-OnlineCV/tree/master/testing/html)
+*   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/NikolasKotsikos/NikolasKotsikos-OnlineCV/blob/master/testing/CSSResults.png)
 
 
 #### Testing User Stories from User Experience (UX) Section
 
 *   ##### First Time Visitor Goals
 
-    1. I want to easily understand the main purpose of the site and learn more about the organisation.
+    1. I want to easily understand the main purpose of the site.
 
         *  Upon entering the site, users are automatically greeted with a clean and easily readable page providing a brief overview of who Nikolas is and what he can offer in a professional environment. 
         *  The user is presented with a visually non-ambiguous navigation bar. From there the user can easily navigate to the individual page they want to browse.
        
-    2. I want to be able to easily be able to navigate throughout the site to find information regarding Nikolas.
+    2. I want to be able to easily navigate throughout the site to form an impression of Nikolas as a professional.
 
         *  The site has been designed with simplicity and clarity in mind. The main elements used to navigate the website are thus presented to the user when the [landing page](https://nikolaskotsikos.github.io/NikolasKotsikos-OnlineCV/) loads.
         *  The name and the image both function as home links to easily help users navigate back to the first page of the website.
        
 -   ##### Returning Visitor Goals
 
-    1. I want to contact Nikolas with any questions I may have.
+    1. I want to contact you with any questions I may have.
 
         * There is a link to the contact page present inside the footer of three out of the four total pages, so that is easy for a returning user to get to the contact page. 
         * There are links that lead to social media where the user can connect with and message Nikolas. 
         * The form elements have been positioned and styled as intended. JavaScript functionality will be added in future versions of the website.
         * The ability to message Nikolas through use of social media links will initially function as a substitute for the missing contact form functionality.
 
-    2. I want to be able to easily get a printable copy of Nikolas's information.
+    2. I want to be able to easily get a printable resume of the information.
 
         * In every page there is an easy to find link in the footer of the page for downloading a printable summary version of the site's information in pdf.
         * The link opens the pdf in a new window so as to not interfere with navigation within the website.
@@ -129,7 +129,7 @@ The results were submitted as received after consultation with Code Institute's 
 
          * The user can easily navigate to the education page in order to check for new milestones. 
 
-    3. I want to easily connect with Nikolas on social media.
+    3. I want to easily connect with you on social media.
 
          * At the bottom of every page their is a footer. Its content as it pertains to social media links is consistent throughout the website.
         
@@ -143,7 +143,7 @@ The results were submitted as received after consultation with Code Institute's 
 
 #### Known Bugs
  
-*   The layout will break on resolutions below 300px wide.
+*   The layout will break on resolutions below *300px* wide.
 
 
 ### Deployment
@@ -158,6 +158,18 @@ The project was deployed to GitHub Pages using the following steps...
 4. Under "Source", clicked the dropdown called "None" and selected "Master Branch".
 5. The page automatically refreshed.
 6. Scrolled back down through the page to locate the now published site [link](https://nikolaskotsikos.github.io/NikolasKotsikos-OnlineCV/index.html) in the "GitHub Pages" section.
+
+### How to run this project locally
+
+To clone this project from GitHub:
+1. Go to the [Project GitHub repository](https://github.com/NikolasKotsikos/NikolasKotsikos-OnlineCV).
+2. Under the repository name, click "Clone or download".
+3. In the Clone with HTTPs section, copy the clone URL for the repository. 
+4. In your local IDE open Git Bash.
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type **git clone**, and then paste the URL you copied in Step 3.
+7. Press Enter. Your local clone will be created.
+
 
 
 ### Future versions
@@ -187,7 +199,7 @@ The project was deployed to GitHub Pages using the following steps...
 
 #### Acknowledgements
 
-*   My mentor [Ashish Srivastava](https://www.linkedin.com/in/techieashish/) for inspiring encouraging me throughout the project and nudging me to think out of the box!
+*   My mentor [Ashish Srivastava](https://www.linkedin.com/in/techieashish/) for inspiring encouraging me throughout the project and for challenging me to create a responsive website using only CSS3!
 *   My wife [Lida Dimitriou](https://www.linkedin.com/in/lidadimitriou/) for her immense support and patience!
 *   [Code Institute](https://www.codeinstitute.net) tutors for their helpful feedback.
 *   The [Career Karma](https://www.careerkarma.com) community for their feedback.
