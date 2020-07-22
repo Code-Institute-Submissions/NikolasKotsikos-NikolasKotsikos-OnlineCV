@@ -1,8 +1,10 @@
-<h2 align="center">Nikolas Kotsikos Online CV & Portfolio</h2>
+<h2 align="left">Nikolas Kotsikos Online CV & Portfolio</h2>
 
 
-This is an online cv and portfolio web page for my new career as a junior full stack developer. Having already several years of professional experience I am looking to make a welcoming, minimal and easy to navigate cv & portfolio website to showcase that for future employers. The website contains an about (home) page, providing general information about who I am as a professional, a work page with information on my professional skills and my projects, an education page covering my educational background and a contact page.
-It also provides links to connect with me on social media and an option to download a printable pdf version of my resume. The site aims to render a positive image of me as a junior developer to people that either want to employ me or collaborate with me. 
+This is an online cv and portfolio web page for my new career as a junior full stack developer. <br>
+Having already several years of professional experience I am looking to make a welcoming, minimal and easy to navigate cv & portfolio website to showcase that for future employers. <br>
+The website contains an about (home) page, providing general information about who I am as a professional, a work page with information on my professional skills and my projects, an education page covering my educational background and a contact page.<br>
+It also provides links to connect with me on social media and an option to download a printable pdf version of my resume. The site aims to render a positive image of me as a junior developer to people that either want to employ me or collaborate with me.<br>
  
 [View the live project here.](https://nikolaskotsikos.github.io/NikolasKotsikos-OnlineCV/)
 
