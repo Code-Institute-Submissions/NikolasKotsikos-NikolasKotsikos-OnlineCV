@@ -77,10 +77,11 @@ header {
   display: flex;
   width: -webkit-fill-available;
   position: absolute;
-  padding-top: 280px;
-  padding-left: 350px;
+  margin-top: 280px;
+  margin-left: 350px;
+  padding: 0;
   border: 0;
-  margin: 0;
+  
 }
 
 .menu ul {
