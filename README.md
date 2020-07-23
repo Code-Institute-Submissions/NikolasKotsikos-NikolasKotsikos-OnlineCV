@@ -186,8 +186,8 @@ To clone this project from GitHub:
 
 #### Roadmap
 
-*  Colapsible button and return to top call to action button will be added in mobile version using *JavaScript*.
-*  Contact form functionality will be implemented using *JavaScript*.
+*  Collapsible button and return to top call to action button to be added in mobile version using *JavaScript*.
+*  Contact form functionality to be implemented using *JavaScript*.
 *  Portfolio project thumbnails and links to be added using *JavaScript*.
 
 
