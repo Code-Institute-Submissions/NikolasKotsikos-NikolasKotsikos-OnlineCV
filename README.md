@@ -46,7 +46,7 @@ The site aims to render a positive image of me as a junior developer to people t
 
     *   Home Page Wireframe (all sizes) - [View](https://github.com/NikolasKotsikos/NikolasKotsikos-OnlineCV/blob/master/assets/wireframes/index.png)
 
-    *   Projects & Skills Page Wireframe (all sizes)- [View](https://github.com/NikolasKotsikos/NikolasKotsikos-OnlineCV/blob/master/assets/wireframes/skills.png)
+    *   Work Page Wireframe (all sizes)- [View](https://github.com/NikolasKotsikos/NikolasKotsikos-OnlineCV/blob/master/assets/wireframes/skills.png)
 
     *   Education Page Wireframe (all sizes)- [View](https://github.com/NikolasKotsikos/NikolasKotsikos-OnlineCV/blob/master/assets/wireframes/education.png)
 
