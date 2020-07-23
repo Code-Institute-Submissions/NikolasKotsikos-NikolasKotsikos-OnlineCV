@@ -173,7 +173,7 @@ The project was deployed to GitHub Pages using the following steps...
 To clone this project from GitHub:
 
 1. Go to the [Project GitHub repository](https://github.com/NikolasKotsikos/NikolasKotsikos-OnlineCV).
-2. In the main Repository page, click on the green **Code** button and select clone with HTTPS.
+2. In the main Repository page, in the **<>Code** tab, click on the green **Code** button and select clone with HTTPS.
 3. In the Clone with HTTPs section, copy the clone URL displayed. 
 4. Open Git Bash in your local editor.
 5. Change the current working directory to the location where you want the cloned directory to be created.
